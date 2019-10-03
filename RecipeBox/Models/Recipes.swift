@@ -14,12 +14,12 @@ enum HelloFreshApi {
     case user(login: String)
 }
 
-struct Recipes: Codable {
+struct Recipes {
     let recipe_count: Int
     let recipes: [Recipe]
 }
 
-struct Recipe : Codable {
+struct Recipe  {
     let calories: String
     let card: String
     let country: String
